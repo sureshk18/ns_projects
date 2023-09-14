@@ -1,9 +1,36 @@
 body{
-    background-image: url("image.png");
-}
-h2,h1{
-    
-    text-align: center;
     margin: 0px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+}
+.header{
+    width: auto;
+    height: 800px;
+    color: black;
+    text-align: center;
+    background-image: url("back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    border-bottom: 1px solid white;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    display: inline-flex;
+}
+.card-box{
+    border-radius: 20px;
+    width: 300px;
+    margin: 30px 0px;
+    min-height: 200px;
+    box-shadow: 2px 2px 3px grey;
+    align-items: left;
+    
 }
