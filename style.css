@@ -1,0 +1,9 @@
+body{
+    background-image: url("image.png");
+}
+h2,h1{
+    
+    text-align: center;
+    margin: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
